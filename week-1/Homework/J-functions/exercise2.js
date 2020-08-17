@@ -8,6 +8,8 @@ var result = triple(12);//36
 
 
 console.log(result);
+
+// self practice
 function add(number){
   return number + 10;
 
