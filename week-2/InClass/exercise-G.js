@@ -14,16 +14,21 @@ let apolloCountMessage = "all engine running... LIFT-OFF!";
 let    count = 8;
 
 while (count >= 0) {
-  console.log("The count is: " +  count);
+  console.log("count from : " +  count);
   count = count - 1;
 }
 
 console.log(apolloCountMessage);
 
-var num = 0;
- while (num < 10){
+ var num = 10;
+ while (num >=0){
      num += 1;
      console.log(num);
     
     
 }
+
+
+
+
+

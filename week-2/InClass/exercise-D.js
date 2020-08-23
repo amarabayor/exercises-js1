@@ -47,5 +47,7 @@ function mymoodcheck(mood){
         return "I´m sorry,I am still learning about feeling";
     }
 }
-let msg = mymoodcheck("sad");
-console.log(msg);
+//let msg = mymoodcheck("sad");
+console.log(mymoodcheck("happy"));
+console.log(mymoodcheck("Sad"));
+console.log(mymoodcheck("number"));

@@ -15,11 +15,22 @@ if(danielsRole === "mentor"){
   console.log("Hi, I´m Daniel, I´m a student");
 }
 
+//Selfpratice
+var name = "Amara";
+var AmaraRole = "Gender";
+
+if(AmaraRole === "Girl"){
+  console.log("Hi I am Amara, am a Female");
+}else if(AmaraRole = "Boy"){
+  console.log("Hi I am Amara, Am a Male");
+}
 /* 
 EXPECTED RESULT
 ---------------
 Hi, I'm Daniel, I'm a mentor.
 */
+
+ 
 
  
    
