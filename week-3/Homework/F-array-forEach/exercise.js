@@ -7,7 +7,22 @@
   An array with numbers 1-15 has been provided.
 */
 
-var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+var arr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ];
+
+const outPut = (arr) => {
+	arr.forEach((num, idx) => {
+		if (arr[idx] % 3 === 0 && arr[idx] % 5 === 0) {
+			arr[idx] = 'FizzBuzz';
+		} else if (arr[idx] % 5 === 0) {
+			arr[idx] = 'Buzz';
+		} else if (arr[idx] % 3 === 0) {
+			arr[idx] = 'Fizz';
+		}
+	});
+	return arr;
+};
+
+console.log(outPut(arr));
 
 /* EXPECTED OUTPUT */
 

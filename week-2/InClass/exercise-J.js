@@ -19,3 +19,15 @@ function secondMatchesAmy(array){
 
   const result = (secondMatchesAmy(name));
   console.log(result);
+
+
+  let num = 10;
+
+function satisfiesRequirements(num) {
+
+if (num >3 || (num<10 && num>8)) {
+return true;
+}
+return false;
+}
+console.log(satisfiesRequirements(5));

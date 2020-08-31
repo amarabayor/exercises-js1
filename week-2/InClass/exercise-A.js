@@ -13,3 +13,21 @@ false || true;
 let greaterThan5 = num > 5;
 !greaterThan5
 !(num === 10);
+
+
+const daysOfWeek = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+    
+    ];
+    for (let i = 0; i < daysOfWeek.length; i++) {
+    const dayMessage = "day is: " + daysOfWeek[i];
+    const indexMessage = "index is: " + i;
+    console.log(indexMessage, dayMessage);
+    }
+    
